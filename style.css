@@ -1,0 +1,250 @@
+/*<link rel="stylesheet" href="https://use.typekit.net/vxd7vsy.css">
+
+Acumin Pro Black
+
+font-family: acumin-pro, sans-serif;
+font-weight: 800;
+font-style: normal;
+
+
+Acumin Pro Bold
+
+font-family: acumin-pro, sans-serif;
+font-weight: 700;
+font-style: normal;
+
+
+Acumin Pro Extra Light
+
+font-family: acumin-pro, sans-serif;
+font-weight: 200;
+font-style: normal;
+
+
+Acumin Pro Italic
+
+font-family: acumin-pro, sans-serif;
+font-weight: 400;
+font-style: italic;
+
+
+Acumin Pro Light
+
+font-family: acumin-pro, sans-serif;
+font-weight: 300;
+font-style: normal;
+
+
+Acumin Pro Regular
+
+font-family: acumin-pro, sans-serif;
+font-weight: 400;
+font-style: normal;
+
+
+Acumin Pro Semibold
+
+font-family: acumin-pro, sans-serif;
+font-weight: 600;
+font-style: normal;
+
+*/
+
+@import url("https://use.typekit.net/vxd7vsy.css");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.headerhome{
+  background-image: url("bilder/bannerlogo/bannerhome.png");
+}
+
+.headermarketing{
+  background-image: url("bilder/bannerlogo/bannermarketing.png");
+}
+
+
+.headergestaltung{
+  background-image: url("bilder/bannerlogo/bannergestaltung.png");
+}
+
+.headerskizzen{
+  background-image: url("bilder/bannerlogo/bannerskizzen.png");
+}
+
+.headerfrei{
+  background-image: url("bilder/bannerlogo/bannerfrei.png");
+}
+
+.aha{
+  position: fixed;
+  width: 100%;
+  top: 0px; left: 0px;
+  z-index: 60;
+}
+
+
+body{
+  background-color: #4a4a4a;
+  font-size: 20px;
+  font-family: acumin-pro, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  height: 100%;
+}
+
+.banner{
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+nav ul{
+  background-color: #4a4a4a;
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.link{
+  text-align: center;
+  list-style: none;
+  text-decoration: none;
+  color: #4a4a4a;
+  background-color: #aed9ce;
+  width: 300px;
+  font-size: 1.1em;
+  padding: 5px;
+  font-weight: 400;
+  border: 2px solid #aed9ce;
+}
+.link:hover{
+  color: #aed9ce;
+  background-color: #4a4a4a;
+}
+
+.click{
+  text-align: center;
+  list-style: none;
+  text-decoration: none;
+  color: #aed9ce;
+  border: 2px solid #aed9ce;
+  background-color:#4a4a4a;
+  width: 300px;
+  font-size: 1.1em;
+  padding: 5px;
+  font-weight: 400;
+}
+
+
+.black{
+  border-color: #393939;
+  border-width: 1px;
+}
+
+hr{
+  border-top: 0.5px solid #aed9ce;
+  margin: 0px;
+  padding: 0px;
+}
+
+.main{
+  margin-top: 270px;
+}
+
+
+.vorschauen{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+.vor{
+  padding: 0;
+  margin-top: 0px;
+  height: 720px;
+  margin: 30px;
+
+}
+
+
+.vor:hover{
+  background-color: rgba(65, 130, 130, 0.45);
+
+}
+
+
+
+main section p{
+  padding-top: 10px;
+}
+
+
+.text{
+  color: #ededed;
+  width: 300px;
+  margin: 0 auto;
+}
+
+
+footer{
+  display: flex;
+  justify-content: space-between;
+  padding: 7px 50px;
+  color: #aed9ce;
+}
+
+
+.gross:hover{
+  font-size: 1.2em;
+  color: #d39e9b;
+}
+
+
+
+a{
+  text-decoration: none;
+}
+
+
+.rand{
+  border: 6px solid #ededed;
+  margin: 200px 400px;;
+  padding: 200px 100px;
+}
+
+
+.bindex{
+  display: flex;
+  justify-content: center;
+  width: 40%;
+  height:40%
+}
+
+.homenavi{
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+align-items: center;
+height: calc(98vh - 200px);
+}
+
+
+.navii img{
+  width: 420px;
+}
+
+.navii img:hover{
+  width: 450px;
+   transform: rotate(9deg);
+}
